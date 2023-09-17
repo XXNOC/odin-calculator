@@ -3,9 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="scripts/script.js"></script>
+    <script src="scripts/script.js" defer></script>
     <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/8887ce9714.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Calculator</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <div class="text">
+          <p id="result"></p>
+          <p id="input">0</p>
+        </div>
+        <div class="deleteAndClear">
+          <button id="delete">Delete</button>
+          <button id="clear">Clear</button>
+        </div>
+        <div class="numbersAndOperations">
+          <div class="numbers">
+            <button class="numberButton">1</button>
+            <button class="numberButton">2</button>
+            <button class="numberButton">3</button>
+            <button class="numberButton">4</button>
+            <button class="numberButton">5</button>
+            <button class="numberButton">6</button>
+            <button class="numberButton">7</button>
+            <button class="numberButton">8</button>
+            <button class="numberButton">9</button>
+            <button class="pointButton">.</button>
+            <button class="numberButton">0</button>
+            <button id="calculate">=</button>
+          </div>
+          <div class="operations">
+            <button class="operation">÷</button>
+            <button class="operation">×</button>
+            <button class="operation">-</button>
+            <button class="operation">+</button>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <p class="footerText">
+          Copyright © 2023 XNOC
+          <a href="https://github.com/XXNOC" target="_blank">
+            <i class="fab fa-github"></i
+          ></a>
+        </p>
+      </footer>
+    </div>
+  </body>
 </html>
