@@ -9,4 +9,4 @@ Basic calculator with keyboard support.
 
 ## [Live Site](https://xxnoc.github.io/odin-calculator)
 
-![Landing Page](https://www.imghost.net/ib/r6ELQ0uVAaKNVMF_1695031000.png)
+![image](https://github.com/XXNOC/odin-calculator/assets/99592950/66597b48-9190-4624-8b76-c27cc323e67c)
